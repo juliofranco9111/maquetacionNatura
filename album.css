@@ -1,0 +1,90 @@
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+
+.text-green{
+  color: #8bc34a;
+}
+.bg-green{
+  background-color: #8bc34a;
+}
+
+
+.btn-success{
+  background-color: #8bc34a;
+  border: none !important;
+  transition: all 300ms;
+}
+.btn-success:hover{
+  background-color: #53752D;
+  border: none !important;
+  transform: scale(1.05);
+}
+
+
+
+.bg-blue{
+  background-color: #26DECE;
+}
+#logo-brand{
+  transition: all 300ms;
+}
+#logo-brand:hover{
+  transform: scale(1.1);
+}
+
+
+.bg-blue2{
+  background-color: #0D345D;
+}
+#banner{
+background-color: #8bc34a;
+
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}

@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <title>Natura</title>
+
+   <!-- Estilos CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+   <link href="album.css" rel="stylesheet">
+</head>
+
+<body>
+
+   <!-- Inicio Header -->
+   <header>
+      <div class="collapse" id="navbarHeader">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-8 col-md-7 py-4">
+                  <h4 class="text-green">Acerca de nosotros</h4>
+                  <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi excepturi esse
+                     neque dolor aperiam totam voluptatibus adipisci explicabo. Ullam voluptas quos explicabo officiis
+                     laboriosam perspiciatis nisi porro exercitationem quaerat doloribus, non, sit autem tempora sed a
+                     voluptate illum. Ipsa dolor commodi, sit eveniet repellat impedit vel praesentium ratione
+                     perferendis unde eius placeat mollitia cum. Omnis praesentium cumque alias. Totam, libero.</p>
+               </div>
+               <div class="col-sm-4 offset-md-1 py-4">
+                  <h4 class="text-green">Contacto</h4>
+                  <ul class="list-unstyled" id="listaContacto">
+                     <li><a href="#" class="text-muted">Seguínos en Twitter</a></li>
+                     <li><a href="#" class="text-muted">Da un me gusta en Facebook</a></li>
+                     <li><a href="#" class="text-muted">Escribe un correo</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+         <div class="container d-flex justify-content-between">
+            <a href="#" class="navbar-brand d-flex align-items-center ">
+               <img src="assets/logo.png" id="logo-brand" class="img mr-3" alt="logo.png" width="70px">
+               <strong class="text-green mr-2" >Natura</strong> Travel
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader"
+               aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+         </div>
+      </div>
+   </header>
+
+   <!-- Fin Header -->
+
+   <!-- Inicio Jumbotron/ Banner -->
+
+      <section class="jumbotron text-center container-fluid" id="banner">
+         <div >
+            <h1 class="text-white display-3"><strong>Nuestros destinos</strong></strong></h1>
+            <p class="text-white mt-4" style="font-size: 25px ;">
+                  Conocé el atractivo turístico y la naturaleza de los sitios más destacados de acuerdo a la
+                  estación del año
+               
+               </p>
+         </div>
+      </section>
+
+   <!-- Fin Jumbotron/ Banner -->
+
+
+   <!-- Inicio Seccion cards -->
+
+      <div class="album py-5 bg-light">
+         <div class="container">
+
+            <div class="row">
+               <!-- 1card -->
+               <div class="col-md-6">
+                  <div class="card mb-4 shadow-sm">
+                     <img src="assets/primavera.jpg" width="100%" alt="">
+
+                     <div class="card-body">
+                        <h1 class="display-4">Primavera</h1>
+                        <p>En ésta época del año se suele visitar con frecuencia las <strong> Cataratas del
+                              Iguazú</strong> </p>
+                        <p>
+                           El parque circundante tiene una fauna diversa, incluidos coatíes, jaguares y tucanes, además
+                           de senderos y plataformas con miradores.
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                           <button type="button" class="btn btn-success btn-block" data-toggle="modal"
+                              data-target="#exampleModal1">
+                              Más información
+                           </button>
+
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                     <div class="modal-content">
+                        <div class="modal-header bg-green">
+                           <h3 class="modal-title text-white" id="exampleModalLabel">Cataratas del Iguazú</h3>
+                           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                           </button>
+                        </div>
+                        <div class="modal-body">
+                           <img src="assets/primavera2.jpg" width="100%" alt="">
+                           <p class="mt-4">
+                              Las magníficas Cataratas del Iguazú, una de las Siete Maravillas del Mundo, están
+                              conformadas
+                              por 275 saltos de agua que caen desde las más diversas alturas. La más alta, de 80 metros,
+                              es
+                              conocida como la Garganta del Diablo.
+                           </p>
+                           <p>
+                              Un contexto vegetal inigualable enmarca a uno de los paisajes naturales más opulentos del
+                              mundo: las Cataratas del Iguazú. Se trata de más de 2 km de cascadas que superan los 70
+                              metros de altura, una manifestación espectacular de uno de los recursos cada vez más
+                              escasos
+                              del planeta: el agua.
+                           </p>
+                        </div>
+                        <div class="modal-footer">
+                           <button type="button" class="btn btn-success btn-block" data-dismiss="modal">Volver</button>
+
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- 2card -->
+               <div class="col-md-6">
+                  <div class="card mb-4 shadow-sm">
+                     <img src="assets/verano.jpg" width="100%" alt="">
+
+                     <div class="card-body">
+                        <h1 class="display-4">Verano</h1>
+                        <p>Para el verano el destino principal de los turistas el es mar, nuestra agencia te lleva a
+                           <strong> Puerto Madryn</strong> </p>
+                        <p>
+                           Aguas transparentes y cuidados tours tientan a los que recién llegan a la ciudad y les gusta el buceo
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                           <button type="button" class="btn btn-block btn-success" data-toggle="modal"
+                              data-target="#exampleModal2">
+                              Más información
+                           </button>
+
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                     <div class="modal-content">
+                        <div class="modal-header bg-green">
+                           <h3 class="modal-title text-white" id="exampleModalLabel">Puerto Madryn</h3>
+                           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                           </button>
+                        </div>
+                        <div class="modal-body">
+                           <img src="assets/verano2.jpg" width="100%" alt="">
+                           <p class="mt-4">
+                              Decir Puerto Madryn es sinónimo de ballenas. Miles de turistas conocen este lugar por
+                              vivirse en él uno los espectáculos más maravillosos de la naturaleza. Pero en diciembre le
+                              decimos adiós a estos grandes mamíferos y esperamos las orcas, delfines y pingüinos. Con
+                              sus kilómetros ininterrumpidos de playa para caminar, correr, y pasar el día frente a las
+                              aguas del Golfo, es muy fácil encontrar un lugar aislado y, a su vez, estar cerca de
+                              paradores con servicios; lo que hace de Puerto Madryn un lugar, no solo, para disfrutar de
+                              su flora y su fauna, sino también para descansar.
+                           </p>
+                           <p>
+
+                           </p>
+                        </div>
+                        <div class="modal-footer">
+                           <button type="button" class="btn btn-success btn-block" data-dismiss="modal">Cerrar</button>
+
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- 3card -->
+               <div class="col-md-6">
+                  <div class="card mb-4 shadow-sm">
+                     <img src="assets/otono.jpg" width="100%" alt="">
+
+                     <div class="card-body">
+                        <h1 class="display-4">Otoño</h1>
+                        <p>La provincia de <strong> Jujuy</strong> es el destino para tu próximo viaje de vacaciones.
+                           Descubrí los destinos y atractivos turísticos jujeños durante todo el año.
+                        </p>
+                        <p>
+                           Siendo la más septentrional de las provincias argentinas,
+                           casi todo su territorio está ocupado por montañas
+                           que encierran valles y quebradas
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                           <button type="button" class="btn btn-block btn-success" data-toggle="modal"
+                              data-target="#exampleModal3">
+                              Más información
+                           </button>
+
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                     <div class="modal-content">
+                        <div class="modal-header bg-green">
+                           <h3 class="modal-title text-white" id="exampleModalLabel">Jujuy</h3>
+                           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                           </button>
+                        </div>
+                        <div class="modal-body">
+                           <img src="assets/otono2.jpg" width="100%" alt="">
+                           <p class="mt-4">
+                              Aquí se localiza la mundialmente famosa Quebrada de Humahuaca que resume la idiosincracia
+                              de un pueblo acostumbrado a la altura, a los tonos ocres de los paisajes áridos y a la
+                              nobleza de su gente que ama a la Tierra como pocas.
+                           </p>
+                           <p>
+
+                              Casi 12000 años ininterrumpidos de cultura han dejado su huella en este suelo norteño.
+                              Asentamiento de importantes grupos de pueblos nativos han dado nacimiento a ciudades
+                              fortificadas que aún hoy nos permiten rearmar el escenario de un pueblo aguerrido que
+                              desarrolló un sistema de riego en terrazas, incorporó innumerables cultivos a su
+                              alimentación e hizo de la comunicación un vínculo permanente con los vecinos.
+                           </p>
+                           <p>
+                              Los españoles llegaron a este territorio allá por 1561 y recién en 1593 fundaron la que
+                              actualmente es su ciudad capital: San Salvador de Jujuy. Expansionistas y guerreros fueron
+                              sucediéndose por generaciones en estos valles importantes tribus que dejaron su impronta
+                              en todo el territorio de la actual provincia de Jujuy.
+                           </p>
+
+                        </div>
+                        <div class="modal-footer">
+                           <button type="button" class="btn btn-success btn-block" data-dismiss="modal">Cerrar</button>
+
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- 4card -->
+               <div class="col-md-6">
+                  <div class="card mb-4 shadow-sm">
+                     <img src="assets/invierno.jpg" width="100%" alt="">
+
+                     <div class="card-body">
+                        <h1 class="display-4">Invierno</h1>
+                        <p><strong> San Carlos de Bariloche </strong> (comúnmente llamada Bariloche) es una ciudad en la
+                           región de la Patagonia argentina.
+                           <p>
+
+                              Es conocida por su arquitectura al estilo alpino de Suiza y
+                              su chocolate, que se vende en tiendas de la calle Mitre, la avenida principal. También es una
+                              base popular para el excursionismo y el esquí en las montañas cercanas.
+
+                           <div class="d-flex justify-content-between align-items-center">
+                              <button type="button" class="btn btn-block btn-success" data-toggle="modal"
+                                 data-target="#exampleModal4">
+                                 Más información
+                              </button>
+
+                           </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                     <div class="modal-content">
+                        <div class="modal-header bg-green">
+                           <h3 class="modal-title text-white" id="exampleModalLabel">Bariloche</h3>
+                           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                           </button>
+                        </div>
+                        <div class="modal-body">
+                           <img src="assets/invierno2.jpg" width="100%" alt="">
+                           <p class="mt-4">
+
+                              Llegaste a la Patagonia, al parque nacional Nahuel Huapi y estás a 1680 km de la ciudad de
+                              Buenos Aires. Bariloche es uno de los lugares más intensos e increíbles de Argentina. Vas a
+                              descubrir vistas impresionantes, lagos, arroyos, ríos de deshielo y montañas. Vas a disfrutar
+                              del aire puro, y de los paisajes que se tiñen del color de cada temporada. El reverdecer del
+                              generoso sol del verano, el arco iris ocre de los otoños, el estallido de colores en
+                              primavera y el brillante manto blanco que cubre los inviernos.
+                           </p>
+                           <p>
+                              Bariloche te carga de energía y te llena de paz. Viví una aventura de sensaciones. Sentí el
+                              pique de la caña cuando pescás una trucha, observá los cauquenes, las bandurrias y los teros
+                              que anidan en las canchas de golf, escuchá el sonido de los esquíes sobre una pista recién
+                              pisada y acariciá el calor de las chispas de la chimenea que se cuelan en la nieve entre copo
+                              y copo.
+                           </p>
+                        </div>
+                        <div class="modal-footer">
+                           <button type="button" class="btn btn-success btn-block" data-dismiss="modal">Cerrar</button>
+
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+
+
+
+
+            </div>
+         </div>
+      </div>
+
+   <!-- Fin Seccion cards -->
+
+  
+   <!-- Inicio Footer -->
+   <footer class="text-muted bg-dark">
+      <div class="container">
+         <p class="float-right">
+            <a href="#" class="btn btn-small btn-success">Inicio</a>
+         </p>
+         <p class="text-white">Página de ejemplo para curso EducaciónIT &copy; <strong>Julio Franco</strong> </p>
+         
+      </div>
+   </footer>
+   <!-- Fin Footer -->
+
+
+
+
+   <!-- Scripts Bootstrap, JQuery -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+   </script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+   </script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+   </script>
+</body>
+
+</html>
